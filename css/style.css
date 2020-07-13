@@ -1,5 +1,17 @@
 html {
   height: 100%;
   margin: 0;
+  /* ensures containers take up 100% of the screen */
   font-size: 16px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  /*Tells computer to switch body element to use flexible layout, anything within body tags become flexible elements */
+  display: flex;
+  /* centers content horizontally */
+  justify-content:center;
+  /* centers content vertically */
+  align-items: center;
 }
